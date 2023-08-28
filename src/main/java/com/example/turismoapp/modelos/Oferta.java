@@ -1,8 +1,20 @@
 package com.example.turismoapp.modelos;
 
-import java.time.LocalDate;
+import jakarta.persistence.*;
 
-public class oferta {
+import java.time.LocalDate;
+@Entity
+@Table(name="oferta")
+
+
+public class Oferta
+{
+    @Id
+
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+
+    @Column(name="idoferta",nullable = false)
+
     private Integer id;
     private String titulo;
     private String descripcion;
