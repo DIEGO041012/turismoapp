@@ -1,8 +1,8 @@
 package com.example.turismoapp.servicio;
 
-import com.example.turismoapp.modelos.Empresa;
 import com.example.turismoapp.modelos.Oferta;
-import com.example.turismoapp.repositorio.EmpresaRepositorio;
+import com.example.turismoapp.modelos.Oferta;
+import com.example.turismoapp.repositorio.OfertaRepositorio;
 import com.example.turismoapp.repositorio.OfertaRepositorio;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
